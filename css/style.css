@@ -1,0 +1,68 @@
+body {
+  transform-origin: top left;
+  width: 100%;
+  font-family: sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-info h2 {
+  margin: 0;
+}
+
+.main-weather {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.minmax {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.forecast-hourly {
+  display: flex;
+  justify-content: space-between;
+  background: #2c2470;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.hour {
+  text-align: center;
+  font-size: 14px;
+}
+
+.hour img {
+  width: 30px;
+}
+
+.forecast-daily {
+  margin-top: 20px;
+  font-size: 14px;
+}
